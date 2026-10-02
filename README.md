@@ -95,7 +95,7 @@ Soil inorganic nitrogen anchors the model because it was the only variable with 
 
 | Version | Change |
 |---|---|
-| v1.0 | Experimental baseline. Tested NH₄⁺/NO₃⁻ trajectories by treatment, fitted with GPR on year alone — no covariates |
+| v1.0 | Experimental baseline. Data assembly. Test the model with Soil Organic Carbon fraction data|
 | v2.0 | Anchor model. Soil inorganic nitrogen established as the response variable after the coverage audit; grazing added as a factor; NDVI and EVI extracted |
 | v2.1 | Adds Google Earth Engine covariates and SPEI; Random Forest importance ranking; per-subset GPR |
 | v3.0 | Adds chamber GHG flux as covariates; adds permutation importance |
