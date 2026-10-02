@@ -58,7 +58,7 @@ exceeded the full observed range.
   the model returned near-constant predictions (R² = −3.26 for NH₄⁺, −1.83 for NO₃⁻) with mean
   95% intervals of 53 and 88 mg kg⁻¹ — wider than the full observed range of either analyte.
 
-- To address the issue of limited soil data, grouping folds by plot ID — as Lucero et al. (2026)
+- To address the issue of limited soil data, grouping folds by plot ID — as [Lucero et al. (2026)](https://acsess.onlinelibrary.wiley.com/doi/10.1002/saj2.70334)
   did — may suit sparse soil records better than the year-grouped folds used here, though it
   tests generalization to new plots rather than to new years.
 
