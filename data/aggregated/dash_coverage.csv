@@ -1,0 +1,26 @@
+variable,year,status,role
+NH4 / NO3,2019,Complete,Response
+NH4 / NO3,2020,Complete,Response
+NH4 / NO3,2021,Complete,Response
+NH4 / NO3,2022,Complete,Response
+NH4 / NO3,2023,Complete,Response
+GHG flux,2019,Not collected,Covariate
+GHG flux,2020,All treatments,Covariate
+GHG flux,2021,All treatments,Covariate
+GHG flux,2022,All treatments,Covariate
+GHG flux,2023,All treatments,Covariate
+pH / EC / BD,2019,All treatments,Baseline
+pH / EC / BD,2020,Plot IDs lost,Baseline
+pH / EC / BD,2021,Not collected,Baseline
+pH / EC / BD,2022,Time 2 only,Baseline
+pH / EC / BD,2023,Time 2 only,Baseline
+Carbon fractions,2019,Not collected,Snapshot
+Carbon fractions,2020,Not collected,Snapshot
+Carbon fractions,2021,Not collected,Snapshot
+Carbon fractions,2022,Time 2 only,Snapshot
+Carbon fractions,2023,Time 2 only,Snapshot
+FAME,2019,All treatments,Snapshot
+FAME,2020,Not collected,Snapshot
+FAME,2021,Not collected,Snapshot
+FAME,2022,Time 2 only,Snapshot
+FAME,2023,Time 2 only,Snapshot

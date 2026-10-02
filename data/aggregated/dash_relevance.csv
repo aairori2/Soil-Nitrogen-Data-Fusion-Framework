@@ -1,0 +1,64 @@
+analyte,method,covariate,value,rank
+NH4,RF impurity,Year,0.2389,1
+NH4,RF impurity,SPEI (drought),0.1591,2
+NH4,RF impurity,CO₂ flux,0.1552,3
+NH4,RF impurity,NDVI,0.1378,4
+NH4,RF impurity,EVI,0.1107,5
+NH4,RF impurity,SAR VV (soil moisture),0.0783,6
+NH4,RF impurity,N₂O flux,0.044,7
+NH4,RF impurity,CH₄ flux,0.0334,8
+NH4,RF impurity,Treatment,0.0196,9
+NH4,RF impurity,Depth (cm),0.0187,10
+NH4,RF impurity,Grazing,0.0043,11
+NH4,Permutation (change in MSE),EVI,4.4402,1
+NH4,Permutation (change in MSE),Depth (cm),3.3029,2
+NH4,Permutation (change in MSE),Treatment,2.8725,3
+NH4,Permutation (change in MSE),NDVI,1.3783,4
+NH4,Permutation (change in MSE),SAR VV (soil moisture),0.9153,5
+NH4,Permutation (change in MSE),Year,0.0,6
+NH4,Permutation (change in MSE),SPEI (drought),0.0,7
+NH4,Permutation (change in MSE),CH₄ flux,-0.2466,8
+NH4,Permutation (change in MSE),Grazing,-0.3166,9
+NH4,Permutation (change in MSE),N₂O flux,-1.4765,10
+NH4,Permutation (change in MSE),CO₂ flux,-6.9781,11
+NH4,GPR ARD,NDVI,0.5473,1
+NH4,GPR ARD,SPEI (drought),0.1912,2
+NH4,GPR ARD,Year,0.1408,3
+NH4,GPR ARD,Treatment: Legume,0.0536,4
+NH4,GPR ARD,Treatment: Unfertilized,0.0225,5
+NH4,GPR ARD,Depth (cm),0.021,6
+NH4,GPR ARD,CO₂ flux,0.0121,7
+NH4,GPR ARD,Grazing,0.0115,8
+NH4,GPR ARD,EVI,0.0001,9
+NH4,GPR ARD,Treatment: Fertilized,0.0,10
+NO3,RF impurity,SPEI (drought),0.1742,1
+NO3,RF impurity,Year,0.1332,2
+NO3,RF impurity,CO₂ flux,0.1094,3
+NO3,RF impurity,Depth (cm),0.1082,4
+NO3,RF impurity,NDVI,0.1043,5
+NO3,RF impurity,EVI,0.0984,6
+NO3,RF impurity,SAR VV (soil moisture),0.0949,7
+NO3,RF impurity,CH₄ flux,0.0733,8
+NO3,RF impurity,N₂O flux,0.0696,9
+NO3,RF impurity,Treatment,0.0269,10
+NO3,RF impurity,Grazing,0.0076,11
+NO3,Permutation (change in MSE),Depth (cm),37.625,1
+NO3,Permutation (change in MSE),SAR VV (soil moisture),1.6071,2
+NO3,Permutation (change in MSE),EVI,1.2258,3
+NO3,Permutation (change in MSE),NDVI,0.3419,4
+NO3,Permutation (change in MSE),Treatment,0.1644,5
+NO3,Permutation (change in MSE),CH₄ flux,0.0175,6
+NO3,Permutation (change in MSE),SPEI (drought),0.0,7
+NO3,Permutation (change in MSE),Year,0.0,8
+NO3,Permutation (change in MSE),Grazing,-0.1831,9
+NO3,Permutation (change in MSE),CO₂ flux,-2.4821,10
+NO3,Permutation (change in MSE),N₂O flux,-2.6456,11
+NO3,GPR ARD,NDVI,0.3204,1
+NO3,GPR ARD,SPEI (drought),0.1983,2
+NO3,GPR ARD,Year,0.1521,3
+NO3,GPR ARD,CO₂ flux,0.1489,4
+NO3,GPR ARD,Treatment: Legume,0.0613,5
+NO3,GPR ARD,Depth (cm),0.0403,6
+NO3,GPR ARD,Grazing,0.0346,7
+NO3,GPR ARD,Treatment: Fertilized,0.0237,8
+NO3,GPR ARD,Treatment: Unfertilized,0.0204,9

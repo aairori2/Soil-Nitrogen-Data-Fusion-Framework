@@ -1,0 +1,10 @@
+plot_id,treatment,lat,lon
+101,Fertilized,41.16802,-96.43859
+102,Unfertilized,41.16802,-96.43825
+103,Legume,41.16802,-96.43795
+201,Legume,41.16819,-96.43859
+202,Unfertilized,41.16818,-96.4382
+203,Fertilized,41.16819,-96.43795
+301,Fertilized,41.16841,-96.43852
+302,Unfertilized,41.16841,-96.43823
+303,Legume,41.16841,-96.43794
