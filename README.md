@@ -7,7 +7,7 @@ Department of Agronomy and Horticulture · School of Natural Resources · Univer
 
 ---
 
-## What this is
+## Research Summary
 
 A nine-plot grazing and cover crop trial produced five years of soil data (2019–2023) that was patchy in the way most long-term agronomic records are: where measurements available only for certain years, treatments, or sampling times. Rather than assuming which covariates drive soil nitrogen, this project fuses the field record with remote sensing, a water-balance index, and greenhouse gas flux, ranks covariates three independent ways, and then tests whether any of it supports prediction.
 
@@ -15,7 +15,7 @@ It does not. That negative result, and the reasons behind it, are the contributi
 
 This repository documents how the analysis developed across model versions, so the reasoning — including the corrections — is auditable.
 
-## The framework
+## The Framework
 
 Five checks, applied in order, before building a forecasting pipeline on a short record. Each
 is a decision point where this project would have gone wrong without it.
@@ -40,7 +40,7 @@ Extracted per sampling window, it became testable.
 Report interval coverage *with* width. Coverage here reached 100% only because the intervals
 exceeded the full observed range.
 
-## Key findings
+## Key Findings
 
 **A covariate can carry a real, conditional effect without being a useful global predictor.**
 
@@ -65,7 +65,7 @@ exceeded the full observed range.
   plots share a single 4.6 km pixel, so SPEI varies in time but not in space, unlike the 10 m
   vegetation and SAR covariates.
 
-## Repository contents
+## Repository Contents
 
 ```
 reports/        model reports for each version, with methods, results and corrections
@@ -76,7 +76,7 @@ poster/         conference poster (PDF)
 CHANGELOG.md    what changed between model versions and why
 ```
 
-## Methods in brief
+## Methods in Brief
 
 | Stage | Approach |
 |---|---|
@@ -91,7 +91,7 @@ CHANGELOG.md    what changed between model versions and why
 
 Soil inorganic nitrogen anchors the model because it was the only variable with complete coverage across all five years, all three treatments, and both sampling times. Carbon fractions and FAME profiles cover all treatments but only at Time 2 in 2022–2023, so they support a comparison rather than a trajectory and are not analysed here.
 
-## Model versions
+## Model Versions
 
 | Version | Change |
 |---|---|
@@ -103,7 +103,7 @@ Soil inorganic nitrogen anchors the model because it was the only variable with 
 
 [`CHANGELOG.md`](CHANGELOG.md) records the corrections as well as the additions, including a placeholder drought value that propagated through earlier versions before being replaced with gridded data.
 
-## Data availability
+## Data Availability
 
 This repository contains **aggregated results only** — group means with sample counts, test statistics, importance scores, and model outputs. No individual sample values are published.
 
@@ -111,7 +111,7 @@ Raw soil, flux, and laboratory data are available from the corresponding author 
 
 Remote sensing and climate covariates are public: Sentinel-1 and Sentinel-2 via Google Earth Engine, and the GRIDMET drought product.
 
-## Reproducing the analysis
+## Reproducing The Analysis
 
 The notebooks run in Google Colab and expect the raw data files in a Drive folder. Without those files the notebooks will not execute end to end, but every analytical step, parameter and decision is visible in the code and documented in the reports.
 
@@ -137,7 +137,7 @@ Full reference list with notes on what each work supports: [`REFERENCES.md`](REF
 
 Reports, figures and documentation: CC BY 4.0. Code: MIT.
 
-## Fair use of AI
+## Fair Use of AI
 
 Read the [`description`](FAIR-USE-OF-AI.md)
 
