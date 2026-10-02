@@ -144,4 +144,4 @@ Read the [`description`](FAIR-USE-OF-AI.md)
 ## Contact
 
 Aldi Airori — aairori2@unl.edu
-Research Technologist, Department of Agronomy and Horticulture, University of Nebraska–Lincoln
+Research Technologist I, Department of Agronomy and Horticulture, University of Nebraska–Lincoln
