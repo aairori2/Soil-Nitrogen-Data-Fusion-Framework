@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+title: >-
+  A data fusion framework for covariate prioritization in
+  incomplete short-term soil nitrogen records
+message: If you use this work, please cite it as below.
+type: software
+authors:
+  - given-names: Aldi
+    family-names: Airori
+    affiliation: University of Nebraska–Lincoln
+    email: aairori2@unl.edu
+  - given-names: Martha
+    family-names: Mamo
+    affiliation: University of Nebraska–Lincoln
+  - given-names: John
+    family-names: Guretzky
+    affiliation: University of Nebraska–Lincoln
+  - given-names: Sruti
+    family-names: Das Choudhury
+    affiliation: University of Nebraska–Lincoln
+  - given-names: Tsegaye
+    family-names: Legesse
+    affiliation: University of Nebraska–Lincoln
+  - given-names: Gandura
+    family-names: Abagandura
+    affiliation: University of Nebraska–Lincoln
+repository-code: 'REPLACE WITH REPOSITORY URL'
+abstract: >-
+  Analysis pipeline and model reports for a five-year grazing and cover crop
+  trial at the University of Nebraska–Lincoln. Soil inorganic nitrogen is fused
+  with remote sensing covariates, a water-balance index and greenhouse gas flux;
+  covariates are ranked by three independent methods; and a temporal holdout
+  establishes the predictive limits of a short record.
+keywords:
+  - soil nitrogen
+  - cover crops
+  - rotational grazing
+  - random forest
+  - gaussian process regression
+  - variable importance
+  - model validation
+license: MIT
+version: 3.1.0
+date-released: '2026-10-02'
