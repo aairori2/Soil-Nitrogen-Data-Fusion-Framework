@@ -9,7 +9,7 @@ Department of Agronomy and Horticulture · School of Natural Resources · Univer
 
 ## What this is
 
-A nine-plot grazing and cover crop trial produced five years of soil data (2019–2023) that was patchy in the way most long-term agronomic records are: some variables measured in some years, some treatments, some sampling times. Rather than assuming which covariates drive soil nitrogen, this project fuses the field record with remote sensing, a water-balance index, and greenhouse gas flux, ranks covariates three independent ways, and then tests whether any of it supports prediction.
+A nine-plot grazing and cover crop trial produced five years of soil data (2019–2023) that was patchy in the way most long-term agronomic records are: where measurements available only for certain years, treatments, or sampling times. Rather than assuming which covariates drive soil nitrogen, this project fuses the field record with remote sensing, a water-balance index, and greenhouse gas flux, ranks covariates three independent ways, and then tests whether any of it supports prediction.
 
 It does not. That negative result, and the reasons behind it, are the contribution.
 
@@ -83,9 +83,11 @@ CHANGELOG.md    what changed between model versions and why
 | Coverage audit | Each variable assigned an analytical role from its temporal and treatment completeness |
 | Covariates | NDVI, EVI, SAR-VV (Sentinel via Google Earth Engine); SPEI-90d per sampling window (GRIDMET); chamber CO₂, N₂O, CH₄ (Hutchinson–Mosier) |
 | Ranking | Random Forest impurity importance, permutation importance on a held-out year, and Gaussian Process ARD length-scales |
+| Grazing effect | Mann–Whitney U within treatment × year, Holm-corrected within the 2023 endpoint family |
 | Model | One global GPR (Matérn ARD kernel) over 264 plot-level rows, with treatment, grazing and depth as model inputs |
 | Validation | Temporal holdout (fit 2019–2022, predict 2023); leave-one-year-out cross-validation |
-| Grazing effect | Mann–Whitney U within treatment × year, Holm-corrected within the 2023 endpoint family |
+| Projection | Test projection year advanced to 2028; covariates held at observed means; treatments assumed unchanged |
+
 
 Soil inorganic nitrogen anchors the model because it was the only variable with complete coverage across all five years, all three treatments, and both sampling times. Carbon fractions and FAME profiles cover all treatments but only at Time 2 in 2022–2023, so they support a comparison rather than a trajectory and are not analysed here.
 
@@ -117,8 +119,8 @@ Dependencies: `scikit-learn`, `pandas`, `numpy`, `scipy`, `matplotlib`, `earthen
 
 ## Links
 
-- Interactive dashboard: [REPLACE WITH TABLEAU PUBLIC URL]
-- All project links: [REPLACE WITH LINKTREE URL]
+- Interactive dashboard: [https://public.tableau.com/app/profile/aldi.airori/viz/SoilNitrogenDataFusionFramework/Dashboard1#1]
+- All project links: [https://linktr.ee/aldiairori?utm_source=linktree_profile_share&ltsid=eabc19c9-753e-4344-abd4-e266a5038769]
 - Poster (PDF): `poster/`
 
 ## Citation
