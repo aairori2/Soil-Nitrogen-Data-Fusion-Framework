@@ -139,7 +139,7 @@ Reports, figures and documentation: CC BY 4.0. Code: MIT.
 
 ## Fair use of AI
 
-Read the ['description'](FAIR USE OF AI.md)
+Read the [`description`](FAIR USE OF AI.md)
 
 ## Contact
 
