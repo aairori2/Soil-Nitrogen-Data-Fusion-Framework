@@ -101,7 +101,7 @@ Soil inorganic nitrogen anchors the model because it was the only variable with 
 | v3.0 | Adds chamber GHG flux as covariates; adds permutation importance |
 | v3.1 | Single global GPR with ARD kernel; treatment, grazing and depth become model inputs rather than filters; adds temporal holdout with interval coverage and width; SPEI extracted per sampling window rather than annually |
 
-`CHANGELOG.md` records the corrections as well as the additions, including a placeholder drought value that propagated through earlier versions before being replaced with gridded data.
+[`CHANGELOG.md`](CHANGELOG.md) records the corrections as well as the additions, including a placeholder drought value that propagated through earlier versions before being replaced with gridded data.
 
 ## Data availability
 
