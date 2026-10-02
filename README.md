@@ -15,13 +15,55 @@ It does not. That negative result, and the reasons behind it, are the contributi
 
 This repository documents how the analysis developed across model versions, so the reasoning — including the corrections — is auditable.
 
+## The framework
+
+Five checks, applied in order, before building a forecasting pipeline on a short record. Each
+is a decision point where this project would have gone wrong without it.
+
+**1 · Let coverage decide each variable's role, before modelling anything.**
+Two years at one time point support a comparison, not a trajectory. High-quality data can only
+do so much if it isn't collected consistently.
+
+**2 · Test conditional variables directly before ranking discards them.**
+Grazing ranked last or near-last under every method tried, yet held the only significant
+management effect in the study.
+
+**3 · Rank covariates at least two ways, and report the disagreement.**
+CO₂ flux ranked third in-sample while *degrading* held-out prediction — visible only under
+permutation.
+
+**4 · Match covariate resolution to your sampling design.**
+An annual drought index on multi-season sampling is collinear with year by construction.
+Extracted per sampling window, it became testable.
+
+**5 · Run the temporal holdout first — it decides whether the rest is worth building.**
+Report interval coverage *with* width. Coverage here reached 100% only because the intervals
+exceeded the full observed range.
+
 ## Key findings
 
-**Grazing depletes soil nitrogen only where no input replaces it.** Unfertilized plots lost 11.48 mg kg⁻¹ NH₄⁺ and 14.99 mg kg⁻¹ NO₃⁻ under grazing by 2023 (Mann–Whitney U; Holm-corrected p = 0.036 and 0.030 within the 2023 endpoint family). Fertilized and legume-interseeded plots showed no significant effect.
+**A covariate can carry a real, conditional effect without being a useful global predictor.**
 
-**Every importance method ranked grazing last or near-last anyway.** Impurity importance placed it 11th of 11, permutation importance put it in the negative-importance group, and GPR length-scales ranked it near the bottom. A covariate can carry a real, conditional effect without being a useful global predictor — global importance asks whether a variable separates the whole dataset, and one acting within a single treatment cannot.
+- Importance ranking demonstrates this: grazing ranked last or near-last under all three
+  methods — 11th of 11 under impurity importance, in the negative-importance group under
+  permutation, and near the bottom under GPR length-scales. However, it is an important
+  covariate within the different management systems when analyzed separately. Grazed
+  unfertilized plots lost 11.48 mg kg⁻¹ NH₄⁺ and 14.99 mg kg⁻¹ NO₃⁻ by 2023
+  (Mann–Whitney U; Holm-corrected p = 0.036 and 0.030 within the 2023 endpoint family), with
+  no equivalent effect where fertilizer or legume nitrogen was present.
 
-**Five annual campaigns do not support forward prediction.** Trained on 2019–2022 and tested on the held-out 2023 season, the model returned near-constant predictions (R² = −3.26 for NH₄⁺, −1.83 for NO₃⁻) with mean 95% credible intervals of 53 and 88 mg kg⁻¹ — wider than the full observed range of either analyte. Interval coverage reached 100% only for that reason, which is why coverage is reported alongside width.
+- Due to the limitation of the soil record, five annual campaigns can only support description
+  and association, not prediction. Trained on 2019–2022 and tested on the held-out 2023 season,
+  the model returned near-constant predictions (R² = −3.26 for NH₄⁺, −1.83 for NO₃⁻) with mean
+  95% intervals of 53 and 88 mg kg⁻¹ — wider than the full observed range of either analyte.
+
+- To address the issue of limited soil data, grouping folds by plot ID — as Lucero et al. (2026)
+  did — may suit sparse soil records better than the year-grouped folds used here, though it
+  tests generalization to new plots rather than to new years.
+
+- Another limitation is the small plot size relative to the drought index grid. Nine one-acre
+  plots share a single 4.6 km pixel, so SPEI varies in time but not in space, unlike the 10 m
+  vegetation and SAR covariates.
 
 ## Repository contents
 
