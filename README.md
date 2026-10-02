@@ -119,8 +119,8 @@ Dependencies: `scikit-learn`, `pandas`, `numpy`, `scipy`, `matplotlib`, `earthen
 
 ## Links
 
-- Interactive dashboard: ([`Tableau Dashboard`](https://public.tableau.com/app/profile/aldi.airori/viz/SoilNitrogenDataFusionFramework/Dashboard1#1))
-- All project links: [`https://linktr.ee/aldiairori?utm_source=linktree_profile_share&ltsid=eabc19c9-753e-4344-abd4-e266a5038769`](Aldi's Linktree)
+- Interactive dashboard: [`Tableau Dashboard`](https://public.tableau.com/app/profile/aldi.airori/viz/SoilNitrogenDataFusionFramework/Dashboard1#1)
+- All project links: [`Aldi's Linktree`](https://linktr.ee/aldiairori?utm_source=linktree_profile_share&ltsid=eabc19c9-753e-4344-abd4-e266a5038769)
 - Poster (PDF): `poster/`
 
 ## Citation
