@@ -58,8 +58,6 @@ record of that is part of what this repository documents.
 ## v2.1
 
 **Added**
-- Google Earth Engine covariates: NDVI and EVI from Sentinel-2, VV backscatter from
-  Sentinel-1, extracted per plot and sampling window.
 - A standardized drought index as a covariate.
 - Random Forest impurity importance to rank covariates before fitting the GPR.
 - Log transformation of the nitrogen target, preventing negative predictions.
@@ -72,7 +70,9 @@ record of that is part of what this repository documents.
 - Coverage audit across five years of field and laboratory records, establishing soil
   inorganic nitrogen (NH₄⁺, NO₃⁻) as the only variable with complete temporal and
   treatment-level coverage, and therefore the modelling anchor.
-- Grazing as an explicit factor, after grazed and ungrazed strips were found to be
+- Google Earth Engine covariates: NDVI and EVI from Sentinel-2, VV backscatter from
+  Sentinel-1, extracted per plot and sampling window.
+- Grazing as an explicit factor, after grazed and ungrazed plots were found to be
   distinct sampling units rather than replicates.
 
 **Changed**
