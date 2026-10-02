@@ -82,11 +82,10 @@ record of that is part of what this repository documents.
 ---
 
 ## v1.0 — experimental baseline
-
-- NH₄⁺ and NO₃⁻ trajectories by treatment, fitted with Gaussian Process regression on year
-  alone, with no covariates.
 - Data assembly: five years of records standardized into one schema with unique sample
   identifiers encoding year, plot, time point, depth, grazing condition and replicate.
+- Test the model with Soil Organic Carbon fraction data, fitted with Gaussian Process regression on year
+  alone, with no covariates.
 
 ---
 
