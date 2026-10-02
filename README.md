@@ -137,9 +137,9 @@ Full reference list with notes on what each work supports: [`REFERENCES.md`](REF
 
 Reports, figures and documentation: CC BY 4.0. Code: MIT.
 
-## AI disclaimer
+## Fair use of AI
 
-Read the ['AI Disclaimer'](disclaimer)
+Read the ['FAIR USE OF AI.md'](description)
 
 ## Contact
 
