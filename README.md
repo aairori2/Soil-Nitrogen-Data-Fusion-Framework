@@ -137,6 +137,10 @@ Full reference list with notes on what each work supports: [`REFERENCES.md`](REF
 
 Reports, figures and documentation: CC BY 4.0. Code: MIT.
 
+## Fair Use of AI
+
+Read the disclaimer 
+
 ## Contact
 
 Aldi Airori — aairori2@unl.edu
