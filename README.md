@@ -128,7 +128,7 @@ Dependencies: `scikit-learn`, `pandas`, `numpy`, `scipy`, `matplotlib`, `earthen
 
 If you use the framework or the reported results, please cite the conference presentation:
 
-> Airori, A., Mamo, M., Guretzky, J., Das Choudhury, S., Legesse, T., & Abagandura, G. (2026). *A data fusion framework for covariate prioritization in incomplete short-term soil nitrogen records.* [CONFERENCE NAME, LOCATION, DATE].
+> Airori, A., Mamo, M., Guretzky, J., Das Choudhury, S., Legesse, T., & Abagandura, G. (2026). A data fusion framework for covariate prioritization in incomplete short-term soil nitrogen records. Poster Presentation at the CANVAS 2026 Conference. Portland, Oregon.
 
 ## References
 
