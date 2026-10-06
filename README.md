@@ -71,7 +71,7 @@ exceeded the full observed range.
 ```
 reports/        model reports for each version, with methods, results and corrections
 REFERENCES.md   full reference list, grouped by what each work supports
-notebooks/      analysis pipelines (outputs cleared; see Data availability)
+Notebook/      analysis pipelines (outputs cleared; see Data availability)
 figures/        poster and dashboard graphics
 poster/         conference poster (PDF)
 CHANGELOG.md    what changed between model versions and why
