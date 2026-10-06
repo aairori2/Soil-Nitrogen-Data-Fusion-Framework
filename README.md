@@ -74,9 +74,8 @@ data/               aggregated data from v3.1 analysis
 poster/             conference poster (PDF)
 reports/            model reports for each version, with methods, results and corrections
 CHANGELOG.md        what changed between model versions and why
-REFERENCES.md       full reference list, grouped by what each work supports
 FAIR-USE-OF-AI.md   disclosure of AI use
-
+REFERENCES.md       full reference list, grouped by what each work supports
 
 ```
 
