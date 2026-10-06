@@ -69,12 +69,15 @@ exceeded the full observed range.
 ## Repository Contents
 
 ```
-reports/        model reports for each version, with methods, results and corrections
-REFERENCES.md   full reference list, grouped by what each work supports
-Notebook/      analysis pipelines (outputs cleared; see Data availability)
-figures/        poster and dashboard graphics
-poster/         conference poster (PDF)
-CHANGELOG.md    what changed between model versions and why
+Notebook/           analysis pipelines (outputs cleared; see Data availability)
+data/               aggregated data from v3.1 analysis
+poster/             conference poster (PDF)
+reports/            model reports for each version, with methods, results and corrections
+CHANGELOG.md        what changed between model versions and why
+REFERENCES.md       full reference list, grouped by what each work supports
+FAIR-USE-OF-AI.md   disclosure of AI use
+
+
 ```
 
 ## Methods in Brief
