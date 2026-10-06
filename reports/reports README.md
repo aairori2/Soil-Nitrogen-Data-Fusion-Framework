@@ -9,10 +9,10 @@ go to a version report for the detail.
 
 | File | Covers | What it is |
 |---|---|---|
-| `model-development-summary.md` | v1.0 to v3.1 | How the analysis reached its current form. One section per version: the question it asked, what it settled, and what it led to. Consolidated results and the corrections that changed an interpretation |
-| `model-report-v2.1.md` | v2.1 | First full report. Covariate fusion, Random Forest ranking, per-subset Gaussian Process fitting |
-| `model-report-v3.0.md` | v3.0 | Adds greenhouse gas flux and permutation importance. First version to report that cross-validation could not predict an unseen year |
-| `model-report-v3.1.md` | v3.1 | Current. Global GPR with ARD kernel, temporal holdout validation, per-window drought index, and the full results |
+| [`model-development-summary.pdf`](model-development-summary.pdf) | v1.0 to v3.1 | How the analysis reached its current form. One section per version: the question it asked, what it settled, and what it led to. Consolidated results and the corrections that changed an interpretation |
+| [`model-report-v2.1.pdf`](model-report-v2.1.pdf) | v2.1 | First full report. Covariate fusion, Random Forest ranking, per-subset Gaussian Process fitting |
+| [`model-report-v3.0.pdf`](model-report-v3.0.pdf) | v3.0 | Adds greenhouse gas flux and permutation importance. First version to report that cross-validation could not predict an unseen year |
+| [`model-report-v3.1.pdf`](model-report-v3.1.pdf) | v3.1 | Current. Global GPR with ARD kernel, temporal holdout validation, per-window drought index, and the full results |
 
 **v3.1 is the current analysis.** If you only read one, read that.
 
@@ -25,7 +25,7 @@ trajectory model and established the data schema; v2.0 ran the coverage audit th
 to soil inorganic nitrogen. Neither produced results intended to stand on their own, so neither
 was written up separately.
 
-Both are covered in `model-development-summary.md`, and the changes they introduced are recorded
+Both are covered in [`model-development-summary.pdf`](model-development-summary.pdf), and the changes they introduced are recorded
 in [`../CHANGELOG.md`](../CHANGELOG.md).
 
 ---
