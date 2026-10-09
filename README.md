@@ -14,7 +14,7 @@ A nine-plot grazing and cover crop trial produced five years of soil data (2019�
 
 It does not. That negative result, and the reasons behind it, are the contribution.
 
-This repository documents how the analysis developed across model versions, so the reasoning — including the corrections — is auditable. [`model-development-summary.pdf`](model-development-summary.pdf) 
+This repository documents how the analysis developed across model versions, so the reasoning — including the corrections — is auditable. [`model-development-summary.pdf`](reports/model-development-summary.pdf) 
 
 ## The Framework
 
